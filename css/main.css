@@ -994,13 +994,13 @@ ul, li {
 @media screen and (max-width: 575px) {
 	.container {
 		width: 92%;
-		padding: 0 15px;
+		padding: 0 14px;
 	}
 	ul, li {
 		width: 100px;
 	}
 	.owl-carousel {
-		width: 304px;
+		width: 299px;
 	}
 	.icons {
 		width: 325px;
@@ -1025,7 +1025,7 @@ ul, li {
 		margin-left: -15px;
 	}
 	.gallery img {
-		width: 124px;
+		width: 120px;
 	}
 	.top {
 		margin-bottom: 112px;
@@ -1044,20 +1044,20 @@ ul, li {
 		font-size: 14px;
 	}
 	.block-container img {
-		width: 424px;
+		width: 408px;
 		margin-left: -65px;
 	}
 	input {
-		width: 156px;
+		width: 153px;
 	}
 	.theEnd {
-		width: 355px;
+		width: 340px;
 	}
 	.story {
-		width: 302px;
+		width: 287px;
 	}
 	.checkbox {
-		width: 355px;
+		width: 343px;
 		font-size: 11px;
 	}
 	.mobile-2 {
