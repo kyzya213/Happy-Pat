@@ -1,0 +1,418 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Happy Pet</title>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<header id="header" class="header">
+		<div class="container">
+			<div class="nav">
+				<img src="img/logo.svg" alt="Happy Pet">
+				<ul class="menu">
+					<li class="list active">
+						<a href="#">
+							Главная
+						</a>
+					</li>
+					<li class="list">
+						<a href="#about1">
+							Друзья
+						</a>
+					</li>
+					<li class="list">
+						<a href="#service">
+							О сервисе
+						</a>
+					</li>
+					<li class="list">
+						<a href="#about3">
+							Контакты
+						</a>
+					</li>
+					<div class="indicator"></div>
+				</ul>
+				<div class="mobile">
+					<img class="icon" src="img/tel.svg" alt="tel">
+					<a href="tel:+380668113307" class="tel">
+					+(380)66-811-33-07
+					</a>
+				</div>
+				<div class="car">
+					<img src="img/car.png" alt="car">
+					<p>8570грн.</p>
+					<a href="#">
+						<img src="img/Vector 1.png" alt="Vector">
+					</a>
+				</div>
+				<button class="menu-open">
+					<img src="img/menu.svg" alt="Open menu">
+				</button>
+			</div>
+				<script>
+					const list = document.querySelectorAll('.list');
+					function activeLink(){
+					list.forEach((item) =>
+					item.classList.remove('active'));
+					this.classList.add('active');
+					}
+					list.forEach((item) =>
+					item.addEventListener('click',activeLink));
+				</script>
+			<div class="offer">
+				<div class="offer-text">
+				<h1>
+					Твой новый друг <br> 
+					с доставкой на дом
+				</h1>
+				<p>
+					Онлайн-магазин домашних животных подарит тебе нового друга в несколько кликов. Действуй!
+				</p>
+				<a href="#about1" class="btn">Посмотреть друзей</a>
+				</div>
+			</div>
+  			<div class="row">
+				<div class="col">
+					<div class="owl-carousel owl-theme">
+					    <div class="slaider">
+					    	<div class="component">
+					    		<p>Собаки</p>
+					    		<a href="#">
+					    			<img src="img/strela.svg" alt="" style="width: 12.5px;">
+					    		</a>
+					    	</div>
+					    	<img src="img/dog1.png" alt="dog" style="width: 100px;">
+					    </div>
+					    <div class="slaider1">
+					    	<div class="component1">
+					    		<p>Птицы</p>
+					    		<a href="#">
+					    			<img src="img/strela.svg" alt="" style="width: 12.5px;">
+					    		</a>
+					    	</div>
+					    	<img src="img/dog2.png" alt="dog" style="width: 100px;">
+					    </div>
+					   <div class="slaider">
+					    	<div class="component">
+					    		<p>Собаки</p>
+					    		<a href="#">
+					    			<img src="img/strela.svg" alt="" style="width: 12.5px;">
+					    		</a>
+					    	</div>
+					    	<img src="img/dog1.png" alt="dog" style="width: 100px;">
+					    </div>
+					    <div class="slaider1">
+					    	<div class="component1">
+					    		<p>Птицы</p>
+					    		<a href="#">
+					    			<img src="img/strela.svg" alt="" style="width: 12.5px;">
+					    		</a>
+					    	</div>
+					    	<img src="img/dog2.png" alt="dog" style="width: 100px;">
+					    </div>
+					</div>
+				</div>
+			</div>
+	</header>
+	<section id="about" class="about">
+		<div class="container">
+			<h2>Почему выбирают наших друзей</h2>
+			<div class="icons">
+				<div class="one">
+					<div class="icon1">
+						<img src="img/icon1.svg">
+					</div>
+					<div class="one-text">
+						<h4>Их много</h4>
+						<p>Огромный выбор животных, птиц и питомцев</p>
+					</div>	
+				</div>
+				<div class="two">
+					<div class="icon2">
+						<img src="img/icon2.svg">
+					</div>
+					<div class="two-text">
+						<h4>Они здоровы</h4>
+						<p>Мы заботимся о каждом питомце, который с нами</p>
+					</div>
+				</div>
+				<div class="three">
+					<div class="icon3">
+						<img src="img/icon3.svg">
+					</div>
+					<div class="three-text">
+						<h4>Их любят</h4>
+						<p>Мы окружаем любовью и вниманием наших друзей</p>
+				</div>
+			</div>
+		
+	</section>
+	<section id="about1" class="about1">
+		<div class="container">
+			<h2>Каталог животных</h2>
+			<div class="katalog">
+				<ul class="menu-katalog">
+					<li class="list1 active">
+						<a href="#" class="btn1">
+							Все
+						</a>
+					</li>
+					<li class="list1">
+						<a href="#" class="btn2">
+							Собаки
+						</a>
+					</li>
+					<li class="list1">
+						<a href="#" class="btn3">
+							Кошки
+						</a>
+					</li>
+					<li class="list1">
+						<a href="#" class="btn4">
+							Попугаи
+						</a>
+					</li>
+					<li class="list1">
+						<a href="#" class="btn5">
+							Хомяки
+						</a>
+					</li>
+					<li class="list1">
+						<a href="#" class="btn6">
+							Обезьяны
+						</a>
+					</li>
+					<div class="indicator1"></div>
+				</ul>
+				<button class="katalog-open">
+					<img src="img/katalog.svg" alt="Open katalog">
+				</button>
+			</div>
+			
+				<script>
+					const list1 = document.querySelectorAll('.list1');
+					function activeLink(){
+					list1.forEach((item) =>
+					item.classList.remove('active'));
+					this.classList.add('active');
+					}
+					list1.forEach((item) =>
+					item.addEventListener('click',activeLink));
+				</script>
+				<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slaid">
+						<div class="swiper-top">
+							<div class="number-top">
+								<p class="number">4</p>
+								<p class="text-top">месяца</p>
+							</div>
+							<div class="number-top">
+								<p class="number">2</p>
+								<p class="text-top">награды</p>
+							</div>
+							<div class="slaid-icons">
+								<img src="img/icon-slaid.svg">
+								<img src="img/icon-slaid2.svg">
+							</div>
+						</div>
+						<div class="image-slider-container">
+							<img src="img/Dog-slaid.png" class="dog">
+							<h4>Доберман</h4>
+							<p class="discription-slaid">Отличный новый друг для всей семьи, охраняет и обожает</p>
+							<div class="view">
+								<div class="view-1">
+									<img src="img/Ellipse-1.svg">
+									<p>Собака</p>
+								</div>
+								<div class="view-1">
+									<img src="img/Ellipse-2.svg">
+									<p>Хищник</p>	
+								</div>
+							</div>
+							<div class="footer-slaid">
+								<h3>6 500 грн.</h3>
+								<img src="img/pet.svg">
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slaid">
+						<div class="swiper-top">
+							<div class="number-top">
+								<p class="number">7</p>
+								<p class="text-top">месяца</p>
+							</div>
+							<div class="number-top">
+								<p class="number">3</p>
+								<p class="text-top">награды</p>
+							</div>
+							<div class="slaid-icons">
+								<img src="img/icon-slaid.svg">
+								<img src="img/icon-slaid2.svg">
+							</div>
+						</div>
+						<div class="image-slider-container">
+							<img src="img/cat.png" class="dog">
+							<h4>Вислоухая кошка</h4>
+							<p class="discription-slaid">Прекрасная подруга на дождливые холодные времена</p>
+							<div class="view">
+								<div class="view-1">
+									<img src="img/Ellipse-1.svg">
+									<p>Кошка</p>
+								</div>
+								<div class="view-1">
+									<img src="img/Ellipse-2.svg">
+									<p>Мышкоедная</p>	
+								</div>
+							</div>
+							<div class="footer-slaid">
+								<h3>3 500 грн.</h3>
+								<img src="img/pet.svg">
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slaid">
+						<div class="swiper-top">
+							<div class="number-top">
+								<p class="number">7</p>
+								<p class="text-top">месяца</p>
+							</div>
+							<div class="number-top">
+								<p class="number">3</p>
+								<p class="text-top">награды</p>
+							</div>
+							<div class="slaid-icons">
+								<img src="img/icon-slaid.svg">
+								<img src="img/icon-slaid2.svg">
+							</div>
+						</div>
+						<div class="image-slider-container">
+							<img src="img/monkey.png" class="dog">
+							<h4>Шимпанзе</h4>
+							<p class="discription-slaid">Домашний питомец для тех, кому не хочется скучать</p>
+							<div class="view">
+								<div class="view-1">
+									<img src="img/Ellipse-1.svg">
+									<p>Обезьяна</p>
+								</div>
+								<div class="view-1">
+									<img src="img/Ellipse-2.svg">
+									<p>Травоядная</p>	
+								</div>
+							</div>
+							<div class="footer-slaid">
+								<h3>20 500 грн.</h3>
+								<img src="img/pet.svg">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="about2" class="about2">
+		<div class="container">
+			<h2>Мы любим поиграть</h2>
+			<div class="gallery">
+				<div class="top">
+							<img src="img/foto1.png" class="foto1">
+							<img src="img/foto2.png" class="foto2">
+							<img src="img/foto3.png" class="foto3">
+				</div>
+				<div class="bottom">
+						<img src="img/foto4.png" class="foto4">
+						<img src="img/foto5.png" class="foto5">
+						<img src="img/foto6.png" class="foto6">
+				</div>
+			</div>
+			<h2 id="service">О питомнике Happy Pet</h2>
+			<div class="block-container">
+				<div class="block">
+					<p>Мы - команда мечтателей</p>
+					<div class="block-text">
+						<p>Нашей главной специализацией является производство клематисов. В нашей коллекции имеется более 450 видов и сортов клематиса, но для коммерческих целей мы производим только немногим более 280 экземпляров клематиса Ломоноса – клематисы с большим и маленьким цветком, а также стелющиеся формы клематиса в широком диапазоне.
+							<br>
+							<br>
+						У нас также есть дополнительная специальность вьющиеся растения которые могут расти в саду в польских климатических условиях; мы производим более сотни видов и сортов таких растений.</p>
+					</div>
+					<a href="#">
+						<p>Читать больше →</p>
+					</a>
+				</div>
+				<img src="img/hero1.png">
+			</div>
+		</div>
+		</div>
+	</section>
+	<section id="about3" class="about3">
+		<div class="container">
+			<h2>Есть вопросы? Задавайте!</h2>
+			<form class="form">
+				<div class="one-block">
+					<div class="form-group">
+						<input type="text" class="form-input" placeholder="Введите имя">
+					</div>
+					<div class="form-group">
+						<input type="email" class="form-input" placeholder="Введите E-mail">
+					</div>
+				</div>
+			<div class="two-block">
+				<div class="form-group">
+						<input type="tel" class="form-input" placeholder="Введите телефон">
+					</div>
+					<div class="form-group1">
+						<select>
+							<option>Тема вопроса</option>
+							<option>Тема</option>
+							<option>Тема</option>
+							<option>Тема</option>
+						</select>
+					</div>
+				</div>
+			</form>
+			<div class="theEnd">
+			<textarea class="story" rows="5" cols="33" placeholder="Введите сообщение"></textarea>
+				<button class="form-button">
+					<img src="img/button.svg">
+				</button>
+			</div>
+				<label class="checkbox">
+				<input type="checkbox">Я согласен на обработку моих 
+				<a href="#">персональных данных</a>
+			</label>
+			<br>
+			<label class="checkbox">
+				<input type="checkbox">Я согласен с 
+				<a href="#">политикой конфиндециальности</a>
+			</label>	
+		</div>
+	</section>
+	<footer id="footer" class="footer">
+		<div class="container">
+			<div class="logo-footer">
+				<img src="img/Лого.png">
+				<h3>Happy pet</h3>
+			</div>
+			<p>2022 © Все права защищены</p>
+			<a href="#header">
+				<img class="skroll" src="img/str-top.svg">
+			</a>
+			<div class="mobile-2">
+					<img src="img/tel3.svg" alt="tel">
+					<a href="tel:+380668113307" class="tel2">
+					+(380)66-811-33-07
+					</a>
+				</div>
+		</div>
+	</footer>
+			<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+			<script src="js/jquery-3.6.0.min.js"></script>
+			<script src="js/owl.carousel.min.js"></script>
+			<script src="js/main.js"></script>
+</body>
+</html>
